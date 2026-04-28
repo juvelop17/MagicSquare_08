@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magic_square"
+version = "0.1.0"
+description = "4×4 partial magic square completion (PRD-aligned)"
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+gui = ["PyQt6>=6.7"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["magic_square*", "magicsquare*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-v"
