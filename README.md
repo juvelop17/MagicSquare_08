@@ -187,6 +187,12 @@ deactivate
 
 - Python 인터프리터 경로를 **`.venv\Scripts\python.exe`** (Windows) 또는 **`.venv/bin/python`** (Unix)로 지정하면, 터미널과 동일한 환경에서 테스트·디버깅이 맞습니다.
 
+### GUI 실행 (공식 경로)
+
+```bash
+python -m magicsquare.gui
+```
+
 ---
 
 ## TDD 사이클과 리팩터링
