@@ -16,6 +16,7 @@
 | [`Report/3.cursorrules_specification_and_ai_guidelines.md`](Report/3.cursorrules_specification_and_ai_guidelines.md) | `.cursorrules` 요지(ECB·TDD·pytest) |
 | [`.cursorrules`](.cursorrules) | 저장소 개발 규칙(실행·레이어·금지 사항) |
 | [`Report/6.readme_backlog_and_environment_report.md`](Report/6.readme_backlog_and_environment_report.md) | README·구현 백로그·venv·TDD 보강 작업 보고 |
+| [`Report/7.virtual_environment_and_pytest_execution.md`](Report/7.virtual_environment_and_pytest_execution.md) | 가상환경 활성화부터 `pytest` 실행까지 순서 요약 |
 
 ---
 
